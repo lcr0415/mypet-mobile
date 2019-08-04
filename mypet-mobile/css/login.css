@@ -1,0 +1,152 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,textarea,select,td,th{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family: "微软雅黑";
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+	background:#f0f0f0;
+}
+img{
+	border: none;
+	display: block;
+}
+html{
+	font-size: 26.67vw;
+}
+
+/* header */
+header{
+	width:100%;
+	height:.43rem;
+	background:#f9e700;
+}
+.head{
+	margin:.1rem auto;
+	width:100%;
+	display: -webkit-flex;
+	/* -webkit-justify-content:space-between; */
+	-webkit-align-items:center;
+	position:relative;
+}
+.head a{
+	color:#000;
+	font-size:.18rem;
+	float:left;
+}
+#arrow{
+	margin-left:.1rem;
+}
+#head_tit{
+	margin-left:1.5rem;
+}
+/* section */
+section{
+	width:100%;
+	margin-top:.14rem;
+	background:#fff;
+	margin-bottom:.15rem;
+}
+.section_box{
+	width:3.51rem;
+	height:.29rem;
+	padding-top:14px;
+	border-bottom: #f0f0f0 1px solid;
+	margin:0 auto;
+	display:-webkit-flex;
+}
+.section_box img{
+	width:.18rem;
+	height:.18rem;
+}
+#section_box_span{
+	font-size:.13rem;
+	margin:0  2.62rem 0 .05rem;
+	float:left;
+}
+.section_box a{
+	font-size:.13rem;
+	color:#D9D9D9;
+}
+.section_box span{
+	color:#D9D9D9;
+	font-size:.13rem;
+	margin:0  1.02rem 0 .05rem;
+}
+
+/* artical */
+artical{
+	width:100%;
+}
+.artical_box{
+	width:3.51rem;
+	margin:0 auto;
+	display:-webkit-flex;
+	-webkit-justify-content:space-between; 
+}
+.artical_box span{
+	width:1.2rem;
+	height:.16rem;
+	border:1px solid #000000;
+	background:#fff;
+	text-align: center;
+	font-size:.14rem;
+	border-radius: 4px;
+	text-align: center;
+	padding:.08rem 0;
+	float:left;
+}
+.artical_box a{
+	color:#000000;
+}
+#log_span{
+	width:1.2rem;
+	height:.16rem;
+	border:1px solid #f9e700;
+	background:#f9e700;
+	text-align: center;
+	font-size:.14rem;
+	border-radius: 4px;
+	text-align: center;
+	padding:.08rem 0;
+	float:left;
+}
+#log_a{
+	color:#fff;
+}
+/* footer */
+footer{
+	width:100%;
+	margin-top:.2rem;
+	text-align: center;
+}
+.footer_a{
+	width:.92rem;
+	margin:0 auto;
+	
+}
+footer a{
+	font-size: .13rem;
+	color:#000000;
+	float: left;
+}
+.footer_box{
+	width:1.89rem;
+	margin:.5rem auto;
+	display:-webkit-flex;
+	-webkit-justify-content:space-between; 
+}
+.footer_box img{
+	width:.34rem;
+	height:.34rem;
+}
